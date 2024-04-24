@@ -9,7 +9,12 @@ int main() {
     funcion1();
     funcion2(5, 2.67);
     v = funcion3(10);
+<<<<<<< HEAD
     v = funcion4(10)
+=======
+    v = funcion5(10);
+
+>>>>>>> feature-branch
 
     // Imprime el valor que retornó funcion3()
     printf("v = %d\n", v);
@@ -37,6 +42,7 @@ int funcion3(int x) {
     return y;
 }
 
+
 // funcion4()
 int funcion4(int x) {
     printf("En funcion4()...\n");
@@ -45,3 +51,13 @@ int funcion4(int x) {
 }
 
 
+
+
+
+// funcion5
+
+int funcion5(int x) {
+    printf("En funcion5()...\n");
+    int y = x + 3;
+    return y;
+}
